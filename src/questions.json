@@ -1,0 +1,78 @@
+[
+  {
+    "questionText": "Was ist JSX in React?",
+    "answerOptions": [
+      { "answerText": "JavaScript Extension", "isCorrect": false },
+      { "answerText": "XML Syntax", "isCorrect": false },
+      { "answerText": "JavaScript XML", "isCorrect": true },
+      { "answerText": "Extended Script", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Wie erstellt man einen State in einer React-Komponente?",
+    "answerOptions": [
+      { "answerText": "this.state = {}", "isCorrect": false },
+      { "answerText": "state = {}", "isCorrect": false },
+      { "answerText": "useState({})", "isCorrect": true },
+      { "answerText": "this.setState({})", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Welche Methode wird aufgerufen, wenn eine React-Komponente das erste Mal gerendert wird?",
+    "answerOptions": [
+      { "answerText": "componentDidMount", "isCorrect": true },
+      { "answerText": "componentWillMount", "isCorrect": false },
+      { "answerText": "rendered", "isCorrect": false },
+      { "answerText": "initialRender", "isCorrect": false }
+    ]
+  },
+
+  {
+    "questionText": "Welche Methode wird aufgerufen, bevor eine Komponente dem DOM entnommen wird?",
+    "answerOptions": [
+      { "answerText": "componentDidUnMount", "isCorrect": false },
+      { "answerText": "componentWillMount", "isCorrect": false },
+      { "answerText": "componentWillUnmount", "isCorrect": true },
+      { "answerText": "destroyComponent", "isCorrect": false }
+    ]
+  },
+
+  {
+    "questionText": "Welche Methode wird aufgerufen, wenn der Zustand einer Komponente aktualisiert wurde?",
+    "answerOptions": [
+      { "answerText": "componentDidUpdate", "isCorrect": true },
+      { "answerText": "componentWillUpdate", "isCorrect": false },
+      { "answerText": "updateComponent", "isCorrect": false },
+      { "answerText": "componentUpdated", "isCorrect": false }
+    ]
+  },
+
+  {
+    "questionText": "Welcher Hook wird verwendet, um den Lebenszyklus einer Komponente zu überwachen?",
+    "answerOptions": [
+      { "answerText": "useEffect", "isCorrect": true },
+      { "answerText": "useLifeCycle", "isCorrect": false },
+      { "answerText": "useMonitor", "isCorrect": false },
+      { "answerText": "useLifecycleEffect", "isCorrect": false }
+    ]
+  },
+
+  {
+    "questionText": "Wie kann man den Zustand einer React-Komponente initialisieren?",
+    "answerOptions": [
+      { "answerText": "this.state = initialState;", "isCorrect": false },
+      { "answerText": "this.setState(initialState);", "isCorrect": false },
+      { "answerText": "useState(initialState);", "isCorrect": true },
+      { "answerText": "setState(initialState);", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Welcher Hook wird verwendet, um das Komponenten-Update zu verhindern?",
+    "answerOptions": [
+      { "answerText": "usePreventUpdate", "isCorrect": false },
+      { "answerText": "useShouldUpdate", "isCorrect": false },
+      { "answerText": "useMemo", "isCorrect": true },
+      { "answerText": "useEffect", "isCorrect": false }
+    ]
+  }
+]
