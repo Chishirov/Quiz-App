@@ -25,8 +25,8 @@ export default function App() {
     <div className="app">
       {showScore ? (
         <div className="score-section">
-          Sie haben  {score} von {questions.length} punkten 
-          <button style={{marginLeft: "20px"}} onClick={handleRestartQuiz}>Restart</button>
+          Sie haben  {score} von {questions.length} punkten erhalten
+          <button  onClick={handleRestartQuiz}>Restart</button>
         </div>
       ) : (
         <>

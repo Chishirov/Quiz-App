@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ffffff;
 }
 
@@ -22,20 +21,22 @@ body {
   height: min-content;
   border-radius: 15px;
   padding: 20px;
- 
   display: flex;
   justify-content: space-evenly;
 }
 
 .score-section {
-  display: flex;
-  font-size: 24px;
-  align-items: center;
+  text-align: center;
+  font-size: 20px;
 }
 
+.score-section button {
+  display: block;
+  margin: 50px auto;
+}
 
 .question-section {
-  width: 100%;
+  width: 80%;
   position: relative;
 }
 
@@ -48,8 +49,8 @@ body {
 }
 
 .question-text {
- font-style: oblique;
-font-weight: bold;
+  font-style: oblique;
+  font-weight: bold;
   margin-bottom: 12px;
 }
 
@@ -74,10 +75,6 @@ button {
   cursor: pointer;
 }
 
-
-
 button:hover {
   background-color: #167467;
 }
-
-
